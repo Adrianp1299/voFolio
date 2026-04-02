@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Voice Actor 🚀 having currently no experience but working on it!"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,9 +50,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "NEW VOICE WHO WANTS TO EXPLORE A NEW WORLD",
   skills: [
-    emoji(
-      "🎙️Sample Reel🎙️"
-    ),
+    emoji("🎙️Sample Reel🎙️")
     // emoji(""),
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
