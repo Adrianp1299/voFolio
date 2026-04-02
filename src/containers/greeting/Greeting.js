@@ -43,7 +43,7 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                <SButton text="🎙️Sample Reel🎙️" src={require("../../assets/Audio/Testfile.mp3")} />
+                {/* <SButton text="🎙️Sample Reel🎙️" src={require("../../assets/Audio/Testfile.mp3")} /> */}
                 
                 {greeting.resumeLink && (
                   <a
