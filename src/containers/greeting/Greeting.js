@@ -10,10 +10,6 @@ import SButton from "../../components/soundbutton/SButton";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
-// const reel = new Audio("../../assets/Audio/Testfile.mp3");
-const playAudio = () => {
-  new Audio("../../assets/Audio/Testfile.mp3").play();
-};
 
 
 export default function Greeting() {
@@ -47,7 +43,7 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                <SButton text="🎙️Sample Reel🎙️" onclick="playAudio()" />
+                <SButton text="🎙️Sample Reel🎙️" src={require("../../assets/Audio/Testfile.mp3")} />
                 
                 {greeting.resumeLink && (
                   <a
