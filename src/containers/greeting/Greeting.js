@@ -6,8 +6,11 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import SButton from "../../components/soundbutton/SButton";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+
+
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -40,6 +43,7 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
+                <SButton text="🎙️Sample Reel🎙️" src="../../assets/Audio/Testfile.mp3" />
                 {greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}

@@ -6,6 +6,8 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button";
+
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -33,6 +35,8 @@ export default function Skills() {
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
               {skillsSection.title}{" "}
+              <audio id="myAudio" src="../../assets/Audio/Testfile.mp3"></audio>
+              <button onclick="document.getElementById('myAudio').play()">Play Sound</button>
             </h1>
             <p
               className={
@@ -42,6 +46,7 @@ export default function Skills() {
               }
             >
               {skillsSection.subTitle}
+              
             </p>
             <SoftwareSkill />
             <div>

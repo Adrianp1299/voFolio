@@ -25,6 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Voice Actor 🚀 having currently no experience but working on it!"
   ),
+  
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -47,10 +48,10 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "NEW VOICE WHO WANTS TO EXPLORE A NEW WORLD",
+  title: "",
+  // subTitle: "NEW VOICE WHO WANTS TO EXPLORE A NEW WORLD",
   skills: [
-    emoji("🎙️Sample Reel🎙️")
+    // emoji("🎙️Sample Reel🎙️")
     // emoji(""),
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
@@ -114,7 +115,7 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fab fa-docker"
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
